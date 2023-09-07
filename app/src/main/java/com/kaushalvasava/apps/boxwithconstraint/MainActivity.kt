@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.kaushalvasava.apps.boxwithconstraint.ui.rememberWindowSize
 import com.kaushalvasava.apps.boxwithconstraint.ui.screen.HomeScreen
 import com.kaushalvasava.apps.boxwithconstraint.ui.theme.BoxWithConstraintTheme
 
@@ -23,7 +24,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    HomeScreen()
+                    val windowSize = rememberWindowSize()
+                    HomeScreen(windowSize)
                 }
             }
         }
