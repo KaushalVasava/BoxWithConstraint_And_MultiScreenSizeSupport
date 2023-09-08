@@ -3,7 +3,7 @@ It is a project about how to support different screen size and use of BoxWithCon
 
 # BoxWithConstraint
 A composable that defines its own content according to the available space, based on the incoming constraints or the current LayoutDirection.
-Know more : https://developer.android.com/reference/kotlin/androidx/compose/foundation/layout/BoxWithConstraintsScope
+Know more : https://developer.android.com/reference/kotlin/androidx/compose/foundation/layout/package-summary#BoxWithConstraints(androidx.compose.ui.Modifier,androidx.compose.ui.Alignment,kotlin.Boolean,kotlin.Function1)
 # Types of Device targeting
 - Phone
 - Tablet
