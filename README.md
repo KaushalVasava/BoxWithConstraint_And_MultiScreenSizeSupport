@@ -11,9 +11,22 @@ A composable that defines its own content according to the available space, base
 
 # Branches
 - master : Use of BoxWithConstraint to create dynamic layout for all screen size.
-- : Use to create dynamic layout using WindowSize API and BoxWithConstraint.
+- add-support-to-multi-screen-size: Use to create dynamic layout using WindowSize API.
 
 # Screenshots
+Phone 
+
+![Screenshot 2023-09-08 102728](https://github.com/KaushalVasava/BoxWithConstraint_And_MultiScreenSizeSupport/assets/49050597/b2114ea0-fa7b-4203-94d8-8798c3c63475)
+![Screenshot 2023-09-08 102749](https://github.com/KaushalVasava/BoxWithConstraint_And_MultiScreenSizeSupport/assets/49050597/71b12396-15dc-47c9-813e-2dd3e4b6afef)
+
+
+Tablet
+![Screenshot 2023-09-08 103108](https://github.com/KaushalVasava/BoxWithConstraint_And_MultiScreenSizeSupport/assets/49050597/669c21d7-f25e-43c5-a4d3-62d1d692cb4e)
+![Screenshot 2023-09-08 103124](https://github.com/KaushalVasava/BoxWithConstraint_And_MultiScreenSizeSupport/assets/49050597/90a2ff0f-a535-4887-b79c-8049e49986f6)
+
+Foldable
+
+![Screenshot 2023-09-08 103039](https://github.com/KaushalVasava/BoxWithConstraint_And_MultiScreenSizeSupport/assets/49050597/402d58fd-f1d2-4f14-a69b-feef5d10f81d)
 
 
 # Contribution
